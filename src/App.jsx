@@ -1,11 +1,12 @@
 import './App.css'
-import LifeCycle from './components/LifeCycle'
-
+import SquareCalc from './components/squareCalc'
+import SoftableList from './components/SoftableList'
 function App() {
 
   return (
     <div>
-      <LifeCycle />
+      <SoftableList />
+      {/* <SquareCalc /> */}
     </div>
   )
 }
